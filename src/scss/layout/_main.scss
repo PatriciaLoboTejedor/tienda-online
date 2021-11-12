@@ -1,7 +1,12 @@
 body {
   padding: 2rem;
   height: 100vh;
-  background-image: url('../images/bg-adalab.png');
+  background-image: url("../images/bg-adalab.png");
   background-color: $color-bg;
   font-family: $font-main;
+
+  .card {
+    padding-top: 1rem;
+    margin: 0.5rem;
+  }
 }

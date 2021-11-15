@@ -23,9 +23,9 @@
     ></script>
   </head>
 
-  <body>
-    <header class="col-12">
-      <div class="row">
+  <body class="container bg-light">
+    <header class="col-12 mt-4">
+      <div class="row ps-4">
         <div class="col-1">
           <i class="fas fa-seedling"></i>
         </div>
@@ -42,7 +42,7 @@
           <i class="fas fa-shopping-cart"></i>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <button
@@ -59,10 +59,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Todos los productos</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -73,27 +73,24 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Colecciones
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Los más vendidos</a></li>
+                  <li><a class="dropdown-item" href="#">Navidad</a></li>
+                  <li><a class="dropdown-item" href="#">Otoño ven a mi</a></li>
+                  <li><a class="dropdown-item" href="#">Las de siempre</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
               </li>
             </ul>
             <form class="d-flex">
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Búsqueda"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -138,11 +135,11 @@
       </div>
       <div class="container">
         <div class="row">
-          <article class="col-12 col-md-4 p-3 bg-secondary">
-            <h3>Filtros</h3>
+          <article class="col-12 col-md-3 p-3 bg-white">
+            <h3 class="pb-2">Filtros</h3>
             <div clas="row">
-              <div class="col-12 col-md-4">
-                <h4>Filtros 01</h4>
+              <div class="col-12 mb-3">
+                <h4>Color</h4>
                 <div class="form-check">
                   <input
                     class="form-check-input"
@@ -151,7 +148,7 @@
                     id="flexCheckDefault"
                   />
                   <label class="form-check-label" for="flexCheckDefault">
-                    Checkbox
+                    Azul
                   </label>
                 </div>
                 <div class="form-check">
@@ -162,12 +159,23 @@
                     id="flexCheckChecked"
                   />
                   <label class="form-check-label" for="flexCheckChecked">
-                    Checkbox
+                    Verde
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Blanco
                   </label>
                 </div>
               </div>
-              <div class="col-12 col-md-4">
-                <h4>Filtros 02</h4>
+              <div class="col-12 mb-3">
+                <h4>Precio</h4>
                 <div class="form-check">
                   <input
                     class="form-check-input"
@@ -176,7 +184,7 @@
                     id="flexCheckDefault"
                   />
                   <label class="form-check-label" for="flexCheckDefault">
-                    Checkbox
+                    20€ - 35€
                   </label>
                 </div>
                 <div class="form-check">
@@ -187,12 +195,23 @@
                     id="flexCheckChecked"
                   />
                   <label class="form-check-label" for="flexCheckChecked">
-                    Checkbox
+                    35€ - 50€
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    + 50€
                   </label>
                 </div>
               </div>
-              <div class="col-12 col-md-4">
-                <h4>Filtros 03</h4>
+              <div class="col-12">
+                <h4>Colección</h4>
                 <div class="form-check">
                   <input
                     class="form-check-input"
@@ -201,7 +220,7 @@
                     id="flexCheckDefault"
                   />
                   <label class="form-check-label" for="flexCheckDefault">
-                    Checkbox
+                    Los más vendidos
                   </label>
                 </div>
                 <div class="form-check">
@@ -212,14 +231,36 @@
                     id="flexCheckChecked"
                   />
                   <label class="form-check-label" for="flexCheckChecked">
-                    Checkbox
+                    Navidad
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Otoño ven a mi
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Colecciones de siempre
                   </label>
                 </div>
               </div>
             </div>
           </article>
-          <section class="col-12 col-md-8 p-3">
-            <h2>Productos</h2>
+          <section class="col-12 col-md-9 p-3">
+            <h2 class="pb-3">Los más regalados</h2>
             <div class="row justify-content-center">
               <div class="card" style="width: 14rem">
                 <img
@@ -317,31 +358,57 @@
       </div>
     </main>
 
-    <footer class="col-12 bg-light">
+    <footer class="col-12">
       <div class="container pt-3">
-        <div class="row justify-content-center text-center">
-          <div class="col-4">
-            <h5>Links1</h5>
+        <div class="row justify-content-center p-3">
+          <div class="col-6 col-md-3">
+            <h5>Ocasiones especiales</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">Link 1</a></li>
-              <li class="mb-2"><a href="#">Link 2</a></li>
-              <li class="mb-2"><a href="#">Link 3</a></li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Celebraciones</a>
+              </li>
+              <li class="mb-2"><a class="link-secondary" href="#">Navidad</a></li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Me lo merezco</a>
+              </li>
             </ul>
           </div>
-          <div class="col-4">
-            <h5>Links2</h5>
+          <div class="col-6 col-md-3">
+            <h5>Más información</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">Link 1</a></li>
-              <li class="mb-2"><a href="#">Link 2</a></li>
-              <li class="mb-2"><a href="#">Link 3</a></li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Plantas de interior</a>
+              </li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Plantas de exterior</a>
+              </li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Ramos de flores</a>
+              </li>
             </ul>
           </div>
-          <div class="col-4">
-            <h5>Links3</h5>
+          <div class="col-6 col-md-3">
+            <h5>Sobre nosotros</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">Link 1</a></li>
-              <li class="mb-2"><a href="#">Link 2</a></li>
-              <li class="mb-2"><a href="#">Link 3</a></li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Nuestra historia</a>
+              </li>
+              <li class="mb-2"><a class="link-secondary" href="#">Equipo</a></li>
+              <li class="mb-2"><a class="link-secondary" href="#">Prensa</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <h5>Legal</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Terminos y condiciones</a>
+              </li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Política de privacidad</a>
+              </li>
+              <li class="mb-2">
+                <a class="link-secondary" href="#">Política de cookies</a>
+              </li>
             </ul>
           </div>
         </div>

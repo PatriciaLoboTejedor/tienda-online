@@ -1,12 +1,17 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url("../images/bg-adalab.png");
-  background-color: $color-bg;
-  font-family: $font-main;
-
-  .card {
-    padding-top: 1rem;
-    margin: 0.5rem;
+.card {
+  margin: 0.5rem;
+  img {
+    padding-top: 0.5rem;
+    height: 200px;
+  }
+  .card-body {
+    a {
+      background-color: lightgray;
+      border-color: lightgray;
+      :hover {
+        background-color: grey;
+        border-color: grey;
+      }
+    }
   }
 }

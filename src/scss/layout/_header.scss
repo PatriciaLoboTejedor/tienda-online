@@ -1,5 +1,14 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.fa-seedling {
+  font-size: 2rem;
+  color: #198754;
+}
+@media (min-width: 768px) {
+  .fa-seedling {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .fa-seedling {
+    font-size: 3rem;
+  }
 }

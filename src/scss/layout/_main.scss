@@ -1,3 +1,7 @@
+.form-check-input:checked {
+  background-color: grey;
+  border-color: grey;
+}
 .card {
   margin: 0.5rem;
   img {
@@ -8,7 +12,7 @@
     a {
       background-color: lightgray;
       border-color: lightgray;
-      :hover {
+      &:hover {
         background-color: grey;
         border-color: grey;
       }

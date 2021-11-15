@@ -1,3 +1,10 @@
+.title {
+  font-size: 1.75rem;
+  color: seagreen;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
 .form-check-input:checked {
   background-color: grey;
   border-color: grey;
@@ -17,5 +24,21 @@
         border-color: grey;
       }
     }
+  }
+}
+.details {
+  h4 {
+    color: seagreen;
+  }
+  i {
+    color: rgb(33, 99, 62);
+  }
+}
+.social-media {
+  h3 {
+    color: seagreen;
+  }
+  i {
+    color: rgb(33, 99, 62);
   }
 }

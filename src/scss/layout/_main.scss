@@ -5,10 +5,6 @@
   letter-spacing: 0.3rem;
 }
 
-.form-check-input:checked {
-  background-color: grey;
-  border-color: grey;
-}
 .card {
   margin: 0.5rem;
   img {
@@ -26,6 +22,7 @@
     }
   }
 }
+
 .details {
   h4 {
     color: seagreen;
@@ -34,6 +31,7 @@
     color: rgb(33, 99, 62);
   }
 }
+
 .social-media {
   h3 {
     color: seagreen;

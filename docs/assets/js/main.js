@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";console.log(">> Ready :)");class Main{constructor(){this.products=[],this.min=0,this.max=5}init(){fetch("../data/products.json").then}}

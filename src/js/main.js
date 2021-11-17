@@ -11,7 +11,7 @@ class Main {
 
   async init() {
     this.initListenersInput();
-    this.products = await fetch("../assets/data/products.json")
+    this.products = await fetch("../data/products.json")
       .then((data) => data.json())
       .then((res) => res.products);
     this.products.forEach((card) => {

@@ -1,3 +1,118 @@
 <main class="container">
-  <div class="row js-detail-product">DETALLE PRODUCTO</div>
+  <div class="row js-detail-product">
+    <!-- BLOQUE IMAGENES -->
+    <div class="col-12 md-col-6 mt-2 md-mt-0">
+      <!-- SLIDE -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide p-0"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner d-block">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/product05.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/product01.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/product03.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/product01.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev d-block"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next d-block"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- IMAGENES BAJO SLIDE -->
+      <div class="row d-none d-md-block py-3">
+        <img
+          class="card col-2 px-0 d-inline-flex"
+          src="assets/images/product05.jpg"
+          alt=""
+        />
+        <img
+          class="card col-2 px-0 d-inline-flex"
+          src="assets/images/product01.jpg"
+          alt=""
+        />
+        <img
+          class="card col-2 px-0 d-inline-flex"
+          src="assets/images/product03.jpg"
+          alt=""
+        />
+        <img
+          class="card col-2 px-0 d-inline-flex"
+          src="assets/images/product01.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- BLOQUE DESCRIPCION -->
+    <div class="col-12 md-col-6">
+      <!-- SUB TITLE -->
+      <h5>Subtitle</h5>
+      <!-- TITLE -->
+      <h2>Title</h2>
+      <!-- DESCRIPCION -->
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum vitae
+        consectetur soluta earum optio enim odio dolor excepturi, error omnis
+        eum nemo alias molestias rem nisi asperiores voluptas a inventore.
+      </p>
+      <!-- PRECIO -->
+      <h3 class="col-12">2.25 €</h3>
+      <!-- UNIDADES -->
+      <div class="col-12 mt-2 d-flex justify-content-center" role="group">
+        <div class="row">
+          <button type="button" class="col-4 btn btn-primary">
+            <i class="fas fa-minus"></i>
+          </button>
+          <div class="col-4 btn btn-secondary">0</div>
+          <button type="button" class="col-4 btn btn-primary">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </div>
+      <!-- AÑADIR AL CARRITO -->
+      <div class="d-grid gap-2 col-12 col-md-8 mt-2 mx-auto">
+        <a class="btn btn-primary" href="#" role="button"
+          ><i class="fas fa-shopping-cart"></i> Añadir al carrito</a
+        >
+      </div>
+    </div>
+  </div>
 </main>

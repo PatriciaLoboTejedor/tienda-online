@@ -11,7 +11,7 @@ class Main {
 
   async init() {
     this.initListenersInput();
-    this.products = await fetch("../assets/data/products.json")
+    this.products = await fetch("assets/data/products.json")
       .then((data) => data.json())
       .then((res) => res.products);
     this.products.forEach((card) => {
@@ -28,7 +28,7 @@ class Main {
   }
 
   navigateDetail(id) {
-    window.location.href = "product.html?id=" + id;
+    window.location.href = "detailProduct.html?id=" + id;
   }
 
   initListenersInput() {

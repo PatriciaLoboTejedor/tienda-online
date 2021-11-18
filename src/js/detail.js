@@ -8,7 +8,7 @@ class Detail {
   }
 
   async init() {
-    this.product = await fetch("../assets/data/products.json")
+    this.product = await fetch("assets/data/products.json")
       .then((data) => data.json())
       .then((res) => res.product);
     console.log(this.product);
